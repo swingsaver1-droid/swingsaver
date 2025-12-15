@@ -39,6 +39,7 @@
 .main .section1 .main-banner .swiper-pagination .swiper-pagination-bullet .num::after{ position: absolute; content: ""; right: 8px; top: 50%; transform: translateY(-50%); width: 32px; height: 2px; background: #ffffff; display: none; }
 
 .main .section2{position: relative; background: #333333; padding-top: 125px;}
+.main .section2 .wh{color: #ffffff}
 .main .section2 .whats-list{display: flex;width: 100%; max-width: 1400px; margin: 95px auto 0;}
 .main .section2 .whats-list li p{font-size:24px; color: #fff; font-weight: 400; padding: 40px 0 20px 0; }
 .main .section2 .whats-list li p strong{color: #D7FC3B;font-weight: 400; }
