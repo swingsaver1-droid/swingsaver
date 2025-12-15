@@ -139,8 +139,8 @@
     .cart-ban img{position: absolute;right: 50px;width: 90px;}
     .cart-ban div h1 {font-size: 20px !important;margin: 0px 0 10px;}
     .cart-ban div .cart-btn{font-size: 16px;}
+    .main .section-bg{color: #ffffff;}
     .main .section2{padding: 60px 0 80px;}
-    .main .section2 .wh{color: #ffffff}
     .main .section2 .whats-list{margin: 42px auto 0;}
     .main .section2 .whats-list li p{font-size:22px; padding: 0 0 10px; border-top: 0;}
     .main .section2 .whats-list > li{padding: 55px 0;}
