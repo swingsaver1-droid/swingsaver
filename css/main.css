@@ -147,4 +147,5 @@
     .main .section2 .whats-list > li > ul > li{font-family: 'NotoSansKR'; font-size: 14px; color: #fff; text-align: center;}
     .main .section2 .whats-list > li > ul > li + li{margin-top: 5px;}
     .main .section-bg{color: #ffffff;}
+    .main .section-bg .wh mt-30{color: #ffffff;}
 }
