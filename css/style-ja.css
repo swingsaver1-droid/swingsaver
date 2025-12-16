@@ -1,0 +1,10 @@
+/* dist/파일 */
+@import url("../dist/css/jquery-ui.min.css");
+@import url("../dist/css/swiper.min.css");
+
+/* css */
+@import url("reset-ja.css");
+@import url("fonts-ja.css");
+@import url("common-ja.css");
+@import url("main-ja.css");
+@import url("sub-ja.css");
