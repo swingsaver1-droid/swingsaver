@@ -2,9 +2,43 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <title>Swingsaver</title>
+  <title>BirdieYa</title>
   <!-- 0초 후 한국어 페이지로 이동 -->
   <meta http-equiv="refresh" content="0; url=html/ko/index.html">
+
+  <!-- 
+  <script>
+    (function () {
+      // GitHub project page base path
+      const BASE = "/swingsaver/";
+
+      // 1) 사용자가 직접 선택한 언어가 있으면 그걸 최우선
+      const saved = localStorage.getItem("lang");
+      if (saved) {
+        location.replace(BASE + "html/" + saved + "/index.html");
+        return;
+      }
+
+      // 2) 브라우저 언어 감지
+      const langs = (navigator.languages && navigator.languages.length)
+        ? navigator.languages
+        : [navigator.language || "en"];
+
+      const first = (langs[0] || "en").toLowerCase();
+
+      let lang = "en";
+      if (first.startsWith("ko")) lang = "ko";
+      else if (first.startsWith("ja")) lang = "ja";
+      else lang = "en";
+
+      location.replace(BASE + "html/" + lang + "/index.html");
+    })();
+  </script>
+
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/swingsaver/html/ko/index.html">
+  </noscript>
+-->
 </head>
 <body>
   <p>한국어 페이지로 이동 중입니다...<br>
