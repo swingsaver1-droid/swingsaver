@@ -68,13 +68,13 @@ $(document).ready(function(){
             e.preventDefault(); // a 기본 이동 막기
         
             const targetLang = link.getAttribute('data-lang');
-            const targetPath = `/swingsaver/html/${targetLang}/${currentPage}`;
+            const targetPath = `/html/${targetLang}/${currentPage}`;
         
             fetch(targetPath, { method: 'HEAD' }).then(res => {
                 if (res.ok) {
                     location.href = targetPath;
                 } else {
-                    location.href = `/swingsaver/html/${targetLang}/index.html`;
+                    location.href = `/html/${targetLang}/index.html`;
                 }
             });
         });
