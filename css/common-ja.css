@@ -200,9 +200,9 @@ h5{font-size:18px;}
     
 }
 
-<!--test -->
-html, body {
-  font-family:
+/* === Japanese font stack (iOS safe) === */
+:root{
+  --font-ja:
     -apple-system,
     BlinkMacSystemFont,
     "Hiragino Sans",
@@ -210,8 +210,11 @@ html, body {
     "Yu Gothic",
     Meiryo,
     system-ui,
-    sans-serif !important;
+    sans-serif;
 }
 
-
+/* 기본은 전부 일본어 폰트로 */
+html, body{
+  font-family: var(--font-ja) !important;
+}
 
