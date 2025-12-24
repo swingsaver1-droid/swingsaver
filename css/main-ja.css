@@ -152,5 +152,6 @@
     .main .section2 .whats-list > li > ul > li{font-family: var(--font-ja) !important; font-size: 14px; color: #fff; text-align: center;}
     .main .section2 .whats-list > li > ul > li + li{margin-top: 5px;}
     .main .section .tech-list li div{margin: 40px 0 50px;}
+    .main .certi{width: 100px;}
 
 }
