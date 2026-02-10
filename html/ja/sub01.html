@@ -320,6 +320,34 @@
       }, 0);
     });
   });
+	
+window.onload = function() {
+    // 1. URL에서 파라미터 읽어오기 (예: ?tab=tab2)
+    const urlParams = new URLSearchParams(window.location.search);
+    const tabParam = urlParams.get('tab');
+
+    if (tabParam) {
+        // 2. 모든 탭 버튼과 컨텐츠에서 'current' 클래스 제거
+        const tabs = document.querySelectorAll('.tab li');
+        const contents = document.querySelectorAll('.tabcontent');
+
+        tabs.forEach(tab => tab.classList.remove('current'));
+        contents.forEach(content => content.classList.remove('current'));
+
+        // 3. 파라미터와 일치하는 탭 버튼 활성화
+        const activeTab = document.querySelector(`.tab li[data-tab="${tabParam}"]`);
+        if (activeTab) {
+            activeTab.classList.add('current');
+        }
+
+        // 4. 파라미터와 일치하는 컨텐츠 활성화
+        const activeContent = document.getElementById(tabParam);
+        if (activeContent) {
+            activeContent.classList.add('current');
+        }
+    }
+};
+	
 </script>  
     
     
