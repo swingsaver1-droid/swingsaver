@@ -51,7 +51,7 @@
 .main .section2 .whats-list > li > ul > li{font-family: 'NotoSansKR'; font-size: 16px; color: #cbcbcb; text-align: center;}
 .main .section2 .whats-list > li > ul > li + li{margin-top: 5px;}
 .story1{background: #333333;padding: 150px 0 0 0!important;}
-.system-list li{display: inline-block;width: 32%;background: #181818;margin-right: 5px;padding: 50px 0;}
+.system-list li{display: inline-block;width: 32%;background: #181818;margin-right: 5px;padding: 50px 0;text-align: center;}
 .system-list li p{color: #B9B9B9; font-size: 22px;font-weight: 300;margin-bottom: 20px;}
 .system-list li a{color:#fff;display: block;font-weight: 200;margin-top: 20px;}
 .main .section .video-wrap iframe{position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
